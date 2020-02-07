@@ -9,12 +9,13 @@ public:
     {
         x = _x;
     }
+    virtual float perimetro ();
+    virtual float area();
 };
 
 main() {
 
-    Figura uno =  Figura(20);
-    cout<< uno.x << endl;
+
 
 
 return 0;
