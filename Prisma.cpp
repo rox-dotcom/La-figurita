@@ -1,9 +1,20 @@
 #include <iostream>
 using namespace std;
 
-main() {
-    cout<< "Hola mundo";
+class Figura
+{
+public:
+    float x;
+    Figura(int _x)
+    {
+        x = _x;
+    }
+};
 
+main() {
+
+    Figura uno =  Figura(20);
+    cout<< uno.x << endl;
 
 
 return 0;
